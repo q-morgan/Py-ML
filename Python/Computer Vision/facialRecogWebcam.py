@@ -1,7 +1,7 @@
 import cv2
 import sys
 
-# type python3 Webcam.py "haarcascade_frontalface_default.xml" in the terminal
+# type | python3 facialRecogWebcam.py "haarcascade_frontalface_default.xml" | in the terminal
 
 cascPath = sys.argv[1]
 faceCascade = cv2.CascadeClassifier(cascPath)
